@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Person",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "beneficiaryAccounts",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "beneficiaryamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "beneficiaryAccounts",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "beneficiaryamount",
+						"type": "uint256"
+					}
+				],
+				"name": "benificerdetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deceased",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valueEther",
+						"type": "uint256"
+					}
+				],
+				"name": "etherToWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lastwill.sol": "change"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lastwill.sol": {
+			"keccak256": "0xf6dfc03d8abb58db50f126be8bf783da1cba30b1f11a88ecf822fedc239e19f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59d5aea921e0addffce84d53cceeffedae9ea9d523252602f987abf52afe313a",
+				"dweb:/ipfs/QmeTZdfhp8g1ZFcJvgaFKJG7KEzeWbQPkKSJpV4YwptnQC"
+			]
+		}
+	},
+	"version": 1
+}
